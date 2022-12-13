@@ -1,10 +1,9 @@
 import java.io.*;
 import java.net.URL;
-import java.nio.file.FileSystems;
 import java.util.*;
 
 
-public class ÖZGÜN_KARAHAN_S015422 {
+public class project1 {
 private static final String path="NFA2.txt";  /** FILE NAME GOES HERE COMMENTED LINES
                                                     IN BUFFERED READER IF UNCOMMENTED MAKE ACCESS
                                                     TO FILE BY GIVING DIRECTORY. TO TRY OTHER NFA FILES
@@ -12,7 +11,7 @@ private static final String path="NFA2.txt";  /** FILE NAME GOES HERE COMMENTED 
 
 
     public static BufferedReader FileReader() {
-        URL path2=ÖZGÜN_KARAHAN_S015422.class.getResource(path);
+        URL path2= project1.class.getResource(path);
 
         //System.out.println("Enter NFA text file location");
         boolean validFile = false;
