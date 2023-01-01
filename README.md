@@ -4,3 +4,5 @@ Repository for CS410 (Automata Theory and Formal Languages) projects
 NFA to DFA converter without epsilon transitions.
 ## Project 2
  CFG to CNF converter.
+ ## Project 3
+ Turing Machine simulation
